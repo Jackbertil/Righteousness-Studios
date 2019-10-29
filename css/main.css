@@ -99,8 +99,9 @@ textarea {
    ========================================================================== */
 
 body{
-  background-image: url("../img/sky.jpg");  
+  background-image: url("../img/sky.jpg");
   background-position: top;
+  background-color: rgb(255,255,255);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -177,7 +178,7 @@ a{
   border-width: 0;
   border-top-width: 1px;
   border-style: solid;
-  border-color: rgb(255, 196, 0);
+  border-color: burlywood;
 }
 
 #site-nav .container{
@@ -189,10 +190,21 @@ a{
 #site-nav .container a{
   margin: auto;
   padding: 5px 0;
+  border-right: burlywood;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+#site-nav .container a:last-child{
+  border-right-width: 0;
 }
 
 #site-nav .container a:hover{
   background-color: burlywood;
+}
+
+#site-nav .container a:visited{
+  color: black;
 }
 
 /* Footer */
