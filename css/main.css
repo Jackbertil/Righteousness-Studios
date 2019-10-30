@@ -141,7 +141,7 @@ a{
 
 /* Header */
 #site-header{
-  background-color: beige;
+  background-color: rgb(220, 243, 245);
   padding: 15px 0;
 }
 
@@ -160,6 +160,15 @@ a{
   width: 50px;
 }
 
+#text-logo{
+  display: none;
+}
+
+#text-logo img{
+  width: 100px;
+}
+
+
 #header-contact{
   text-align: center;
   font-size: 12px;
@@ -167,18 +176,14 @@ a{
   margin: auto 0;
 }
 
-#header-button{
- 
-}
-
 /* Nav */
 #site-nav{
-  background-color: beige;
+  background-color: rgb(220, 243, 245);
   padding: 0px 0;
   border-width: 0;
   border-top-width: 1px;
   border-style: solid;
-  border-color: burlywood;
+  border-color: rgb(164, 182, 184);
 }
 
 #site-nav .container{
@@ -190,7 +195,7 @@ a{
 #site-nav .container a{
   margin: auto;
   padding: 5px 0;
-  border-right: burlywood;
+  border-right: rgb(164, 182, 184);
   border-right-style: solid;
   border-right-width: 1px;
 }
@@ -200,7 +205,7 @@ a{
 }
 
 #site-nav .container a:hover{
-  background-color: burlywood;
+  background-color: rgb(135, 174, 179);
 }
 
 #site-nav .container a:visited{
@@ -221,6 +226,15 @@ a{
 #home-main{
   margin-top: 5em;
 }
+
+#home-main h1{
+  font-size: 1.7em;
+}
+
+#home-main h2{
+  font-size: 2.2em;
+}
+
 
 #home-main button{
   margin-top: 3em;
@@ -264,6 +278,10 @@ a{
   color: black;
 }
 
+.game-image{
+  height: 20vh;
+}
+
 
 /* potr */
 #potr{
@@ -278,11 +296,15 @@ a{
   color: wheat;
 }
 
+#potr-footer{
+  color: black;
+}
+
 /* sacred-heresy */
 #sacred-heresy{
   background-image: url("../img/dark-woman.jpg");
   background-position: center;  
-  background-size: 1600px;
+  background-size: 1700px;
   background-repeat: no-repeat;
   background-color: rgb(37, 37, 37);
   background-attachment: fixed;
@@ -475,10 +497,36 @@ a{
 }
 
 @media only screen and (min-width: 580px) {
+  
+  body{
+    text-align: center;
+  }
+
+  main .container{
+    padding: 0 20%;
+  }
+
+  #text-logo{
+    display: inline;
+  }
+  
   #header-contact{
     text-align: right;
     font-size: 12px;
     margin: auto 0;
+  }
+
+  #home-main h1{
+    font-size: 2.5em;
+  }
+  
+  #home-main h2{
+    font-size: 4em;
+  }
+
+  
+  #social-media{
+    justify-content: center;
   }
 }
 
