@@ -200,6 +200,7 @@ a{
   border-right: rgb(164, 182, 184);
   border-right-style: solid;
   border-right-width: 1px;
+  color: #000;
 }
 
 #site-nav .container a:last-child{
